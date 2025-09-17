@@ -9,8 +9,7 @@ import java.util.Arrays;
  * https://github.com/NithinU2802
  */
 public final class SuffixArray {
-    
-    private SuffixArray(){
+    private SuffixArray() {
     }
 
     public static int[] buildSuffixArray(String text) {
