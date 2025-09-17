@@ -1,3 +1,5 @@
+package com.thealgorithm.strings;
+
 import java.util.Arrays;
 
 /**
@@ -8,7 +10,7 @@ import java.util.Arrays;
  * Github: https://github.com/NithinU2802
  */
 
-public class SuffixArray {
+public final class SuffixArray {
 
     public static int[] buildSuffixArray(String text) {
         int n = text.length();
